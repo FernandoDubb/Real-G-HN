@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a3fd8">
+  <meta name="description" content="Real G HN: club hondureño de Clubes Pro en EA SPORTS FC 27. Plantilla, partidos y cómo unirte.">
+  <title>Real G HN | Clubes Pro desde Honduras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="top" id="inicio">
+    <nav class="bar wrap" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">Real G <b>HN</b></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="links" id="nav-links">
+        <a href="#club">El club</a><a href="#plantilla">Plantilla</a><a href="#partidos">Partidos</a>
+        <a class="join" href="#contacto">Unirme</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="titulo">
+      <svg class="pitch-bg" viewBox="0 0 800 800" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3"><circle cx="400" cy="400" r="150"/><line x1="0" y1="400" x2="800" y2="400"/><rect x="200" y="0" width="400" height="170"/><rect x="200" y="630" width="400" height="170"/></g></svg>
+      <div class="wrap hero-in">
+        <h1 id="titulo"><span>Real</span><span>G HN</span></h1>
+        <div class="hero-side">
+          <img class="crest" src="assets/logo.png" alt="Logo del Real G HN" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+          <div class="crest-fallback" hidden>RG</div>
+          <p class="status"><i></i>Club en proceso</p>
+          <p>Un club hondureño de Clubes Pro que arranca desde cero con una meta clara: competir en serio.</p>
+          <div class="hero-actions"><a class="btn solid" href="#plantilla">Ver la plantilla</a><a class="btn line" href="#contacto">Cómo unirse</a></div>
+        </div>
+      </div>
+      <div class="lane" aria-hidden="true"><svg class="ball" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#fff" stroke="#06143a" stroke-width="2"/><path d="M20 12l7 5-3 8h-8l-3-8z" fill="#06143a"/><path d="M20 12V2M27 17l10-3M24 25l6 9M16 25l-6 9M13 17L3 14" stroke="#06143a" stroke-width="2" fill="none"/></svg></div>
+      <div class="stars" aria-hidden="true">★ ★ ★ ★ ★</div>
+    </section>
+
+    <section class="band paper" id="club">
+      <div class="wrap club">
+        <h2>Venimos de jugar juntos. Ahora jugamos para competir.</h2>
+        <div class="club-text">
+          <p>Real G HN apenas está arrancando. No tenemos trofeos ni historial todavía, y lo decimos de frente: estamos armando el plantel y la forma de trabajar.</p>
+          <p>Lo que sí tenemos claro es que queremos jugar competitivo en EA SPORTS FC 27, en Clubes Pro, con gente que quiera entrenar, hablar en la cancha y mejorar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band blue" id="plantilla">
+      <div class="wrap lineup">
+        <div class="lineup-info">
+          <h2>La plantilla</h2>
+          <div class="count"><b id="contador">0</b><span>/ <span id="total">11</span><small>jugadores confirmados</small></span></div>
+          <p class="lead">Formación 4-2-3-1. Tocá un jugador o un cupo libre para ver su ficha.</p>
+          <div class="info" id="player-info" aria-live="polite"></div>
+        </div>
+        <div class="pitch" id="plantilla-grid" role="group" aria-label="Plantilla en formación 4-2-3-1">
+          <i class="pl mid"></i><i class="pl circle"></i><i class="pl box top"></i><i class="pl box bot"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="band paper" id="requisitos-sec">
+      <div class="wrap club">
+        <h2 class="solo">Qué pedimos para entrar</h2>
+        <ul class="reqs" id="requisitos"></ul>
+      </div>
+    </section>
+
+    <section class="band blue" id="ruta">
+      <div class="wrap">
+        <h2>El plan</h2>
+        <ol class="steps">
+          <li><b>Armar el plantel</b><span>Completar los 11 cupos con gente comprometida.</span></li>
+          <li><b>Entrenar juntos</b><span>Definir horarios fijos, formación y roles.</span></li>
+          <li><b>Salir a competir</b><span>Jugar amistosos, luego torneos y ligas.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band paper" id="partidos">
+      <div class="wrap">
+        <h2 class="solo">Partidos</h2>
+        <article class="ticket">
+          <div class="ticket-main">
+            <div class="side"><span class="badge">RG</span><strong>Real G HN</strong></div>
+            <div class="vs">vs</div>
+            <div class="side"><span class="badge empty">?</span><strong>Rival sin definir</strong></div>
+          </div>
+          <div class="ticket-stub">
+            <strong>Todavía no hay partidos publicados.</strong>
+            <span>Cuando el plantel esté completo, el primer rival se anuncia en Instagram.</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band blue" id="contacto">
+      <div class="wrap join-in">
+        <h2>¿Querés ser parte desde el inicio?</h2>
+        <p>Escribinos por Instagram y mandanos tu gamertag, tu posición y los horarios en que podés jugar.</p>
+        <a class="btn solid light" id="instagram-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Escribinos por Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot"><div class="wrap foot-in"><span>★ ★ ★ ★ ★</span><span>© <span id="year"></span> Real G HN. Hecho en Honduras.</span><a href="#inicio">Volver arriba</a></div></footer>
+</body>
+</html>
